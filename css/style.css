@@ -1,0 +1,204 @@
+:root {
+  --blue: #2196f3;
+  --black: #212121;
+  --light-grey: #757575;
+  --very-light-grey: #f5f4fa;
+  --grey: #2f303a;
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  /* margin: 0 auto; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* header styles */
+.header {
+  background-color: #fff;
+}
+/* logo*/
+.main-logo {
+  font-family: var(--logo-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.173;
+  letter-spacing: 0.03em;
+}
+
+.first-part-of-main-logo {
+  color: #2196f3;
+}
+
+/* nav list */
+.nav-list li a {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+
+/* contact-list */
+.contact-list a {
+  color: var(--light-grey);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+
+/* изменение цвета при наведении */
+.nav-list li a:focus,
+.nav-list li a:hover,
+.contact-list li a:focus,
+.contact-list li a:hover {
+  color: var(--blue);
+}
+
+/* Основная часть */
+body {
+  font-family: var(--main-font);
+  color: var(--black);
+}
+
+/* Секция - главный посыл */
+.service {
+  background-color: var(--grey);
+}
+
+.service h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.service button {
+  font-family: var(--main-font);
+  background-color: var(--blue);
+  color: white;
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 700;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+
+/* what-we-do */
+.what-we-do {
+  background-color: white;
+}
+
+.what-we-do h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.what-we-do p {
+  color: var(--light-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.what-we-do h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.171;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+.our-team {
+  background-color: var(--very-light-grey);
+}
+
+.our-team h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.171;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.171;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team p {
+  color: var(--light-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.171;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* футтер */
+footer {
+  background-color: var(--grey);
+}
+
+.second-part-of-main-logo {
+  color: #fff;
+}
+
+.address-color {
+  color: #fff;
+}
+
+footer li a {
+  color: var(--light-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.footer-addresses-list li a:focus,
+.footer-addresses-list li a:hover {
+  color: var(--blue);
+}
