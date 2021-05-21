@@ -4,6 +4,7 @@
   --light-grey: #757575;
   --very-light-grey: #f5f4fa;
   --grey: #2f303a;
+  --white: #fff;
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
 }
@@ -32,7 +33,7 @@ a {
 
 /* header styles */
 .header {
-  background-color: #fff;
+  background-color: var(--white);
 }
 /* logo*/
 .main-logo {
@@ -104,7 +105,6 @@ body {
   font-size: 16px;
   line-height: 1.875;
   font-weight: 700;
-  text-align: center;
   border: 0;
   border-radius: 5px;
   padding: 10px 32px;
@@ -113,7 +113,7 @@ body {
 
 /* what-we-do */
 .what-we-do {
-  background-color: white;
+  background-color: var(--white);
 }
 
 .what-we-do h3 {
@@ -201,4 +201,48 @@ footer li a {
 .footer-addresses-list li a:focus,
 .footer-addresses-list li a:hover {
   color: var(--blue);
+}
+
+/* PORTFOLIO PAGE */
+.all-projects {
+  background-color: var(--white);
+}
+
+.all-projects li button {
+  font-family: var(--main-font);
+  background-color: var(--very-light-grey);
+  color: #000;
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 500;
+  border: 0;
+  border-radius: 5px;
+  padding: 6px 22px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.all-projects li button:hover,
+.all-projects li button:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.all-projects li h3 {
+  color: var(--black);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.all-projects li p {
+  color: var(--light-grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
 }
