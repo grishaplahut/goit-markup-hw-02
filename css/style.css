@@ -21,9 +21,6 @@ ul {
 
 .container {
   width: 1200px;
-  /* margin: 0 auto; */
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a {
@@ -45,11 +42,11 @@ a {
 }
 
 .first-part-of-main-logo {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 /* nav list */
-.nav-list li a {
+.nav-links {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
@@ -59,7 +56,7 @@ a {
 }
 
 /* contact-list */
-.contact-list a {
+.contact-links {
   color: var(--light-grey);
   font-family: var(--main-font);
   font-style: normal;
@@ -70,10 +67,10 @@ a {
 }
 
 /* изменение цвета при наведении */
-.nav-list li a:focus,
-.nav-list li a:hover,
-.contact-list li a:focus,
-.contact-list li a:hover {
+.nav-links:focus,
+.nav-links:hover,
+.contact-links:focus,
+.contact-links:hover {
   color: var(--blue);
 }
 
@@ -88,7 +85,7 @@ body {
   background-color: var(--grey);
 }
 
-.service h1 {
+.main-message {
   color: white;
   font-weight: 900;
   font-size: 44px;
@@ -98,7 +95,7 @@ body {
   text-transform: uppercase;
 }
 
-.service button {
+.order-service-button {
   font-family: var(--main-font);
   background-color: var(--blue);
   color: white;
@@ -116,7 +113,7 @@ body {
   background-color: var(--white);
 }
 
-.what-we-do h3 {
+.what-we-do-headers {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -125,7 +122,7 @@ body {
   text-transform: uppercase;
 }
 
-.what-we-do p {
+.what-we-do-descriptions {
   color: var(--light-grey);
   font-style: normal;
   font-weight: 400;
@@ -134,7 +131,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.what-we-do h2 {
+.what-we-do-header {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -148,7 +145,7 @@ body {
   background-color: var(--very-light-grey);
 }
 
-.our-team h2 {
+.our-team-header {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -157,7 +154,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.our-team h3 {
+.our-team-members {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -166,7 +163,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.our-team p {
+.our-team-member-positions {
   color: var(--light-grey);
   font-style: normal;
   font-weight: 400;
@@ -189,7 +186,7 @@ footer {
   color: #fff;
 }
 
-footer li a {
+.footer-contact-links {
   color: var(--light-grey);
   font-style: normal;
   font-weight: 400;
@@ -198,8 +195,13 @@ footer li a {
   letter-spacing: 0.03em;
 }
 
-.footer-addresses-list li a:focus,
-.footer-addresses-list li a:hover {
+.address-color:focus,
+.address-color:hover {
+  color: var(--blue);
+}
+
+.footer-contact-links:focus,
+.footer-contact-links:hover {
   color: var(--blue);
 }
 
@@ -208,7 +210,7 @@ footer li a {
   background-color: var(--white);
 }
 
-.all-projects li button {
+.project-buttons {
   font-family: var(--main-font);
   background-color: var(--very-light-grey);
   color: #000;
@@ -223,13 +225,13 @@ footer li a {
   letter-spacing: 0.03em;
 }
 
-.all-projects li button:hover,
-.all-projects li button:focus {
+.project-buttons:hover,
+.project-buttons:focus {
   background-color: var(--blue);
   color: var(--white);
 }
 
-.all-projects li h3 {
+.project-headers {
   color: var(--black);
   font-style: normal;
   font-weight: 700;
@@ -238,7 +240,7 @@ footer li a {
   letter-spacing: 0.06em;
 }
 
-.all-projects li p {
+.project-types {
   color: var(--light-grey);
   font-style: normal;
   font-weight: 400;
